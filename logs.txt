@@ -1,0 +1,35 @@
+commit fcfbce00cd0743c4ae50106b8a6c4fb50b4aef3e
+Author: Tijana Avramova <tijanaavramova61@gmail.com>
+Date:   Thu Apr 11 03:04:17 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit b7dc3abaed7851a11fc6e6ba2259fead4d97d253
+Author: Tijana Avramova <tijanaavramova61@gmail.com>
+Date:   Thu Apr 11 02:57:34 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 04da935ca1cac440a99a448287281b4f457631af
+Author: Tijana Avramova <tijanaavramova61@gmail.com>
+Date:   Thu Apr 11 03:01:27 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 6931d04ff3af63b503af4fd6c617a85b5211e9bf
+Author: Tijana Avramova <tijanaavramova61@gmail.com>
+Date:   Thu Apr 11 02:56:58 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 85dc546ca6d973dc6fb7b8c9eead7ebc05a20f2b
+Author: Tijana Avramova <tijanaavramova61@gmail.com>
+Date:   Thu Apr 11 02:15:06 2024 +0200
+
+    Add starter code
+
+commit 433f9c00d81ba86f5febf5ff0eb8a2df8864ac43
+Author: Tijana Avramova <tijanaavramova61@gmail.com>
+Date:   Thu Apr 11 01:34:36 2024 +0200
+
+    Initial commit

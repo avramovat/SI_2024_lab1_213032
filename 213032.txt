@@ -1,0 +1,56 @@
+4.mkdir SI_2024_lab1_213032
+cd SI_2024_lab1_213032
+git init
+5.git remote add origin https://github.com/avramovat/SI_2024_lab1_213032
+6.git add README.md
+git commit -m "Initial commit"
+7.git add SILab1_1.java SILab1Main.java SILab1_2.java
+git commit -m "Add starter code"
+9.git checkout -b bug1
+git checkout -b bug2
+10.git checkout bug1
+11.git add SILab1_1.java
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+12.git checkout bug2
+13.git add SILab1_2.java
+git commit -m "Fix wrong condition in makeBigStringFrom"
+14.git checkout bug1
+15.git add SILab1Main.java
+git commit -m "Call method filterOddLengthStrings in main class"
+16.git checkout bug2
+17.git add SILab1Main.java
+git commit -m "Call method makeBigStringFrom in main class"
+18.git push origin bug1
+git push origin bug2
+19.git checkout master
+20.git merge bug1
+21.git push origin master
+22.git checkout bug2
+23.git rebase master
+git add SILab1Main.java
+git rebase --continue
+24.git checkout master
+25.git merge bug2
+26.git push origin master
+27.git push origin bug2 --force
+28.git add logs.txt 213032.txt
+git commit -m "Final commit"
+29.git push origin --all
+
+Спојување на гранката bug1 кон гранката master
+При спојување на гранката bug1 кон гранката master нe настанува конфликт. За спојување на гранките се користи стратегијата fast-forward затоа што после спојување на гранката bug 1 со master, се немаат додадено никакви промени на master гранката.
+
+Rebase спрема гранката master во гранката bug2
+При rebase на гранката bug1 кон гранката master настанува конфликт затоа што истата линија код во фајлот "SILab1Main.java" е променета во двете гранки. Конфликтот го решив така што во фајлот "SILab1Main.java" ги интегрирав промените од двете гранки. Откако ги направив промените ги додадов со командата "git add SILab1Main.java". Се користи стандарден rebase.
+
+Спојување на гранката bug2 кон гранката master
+При спојување на гранката bug2 кон гранката master нe настанува конфликт. За спојување на гранките се користи стратегијата fast-forward затоа што после спојување на гранката bug 1 со master, се немаат додадено никакви промени на master гранката.
+
+
+
+
+
+
+
+
+
