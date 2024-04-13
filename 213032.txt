@@ -6,6 +6,7 @@ git init
 git commit -m "Initial commit"
 7.git add SILab1_1.java SILab1Main.java SILab1_2.java
 git commit -m "Add starter code"
+8.git push -u origin master
 9.git checkout -b bug1
 git checkout -b bug2
 10.git checkout bug1
